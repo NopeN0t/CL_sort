@@ -34,7 +34,7 @@ parser.add_argument("-d", "--doc_img", action = "store_true", help="Extract data
 parser.add_argument("-p", "--show_path", action = "store_true", help="Show file's path while program running")
 parser.add_argument("-i", "--image_size", default = 500, type = int, help = "Image size when extrcting image files")
 parser.add_argument("-e", "--encoder", default = "", type = str, help = "change text encoder (tensorflow hub.load)")
-parser.add_argument("-s", "--stage", default = 1, type = int, help = "set opration stage")
+parser.add_argument("-s", "--stage", default = 1, type = float, help = "set opration stage")
 
 # %%
 #Read Argument
