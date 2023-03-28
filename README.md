@@ -23,3 +23,16 @@ Arguments <br>
 -i or --image_size 	size of image scaled to when reading them <br>
 -e or --encoder 		encoder used to encode text <br>
 -s or --stage       set stage of opration of the program <br>
+
+## Dependencies
+ - odfpy
+ - pillow
+ - pandas
+ - pytesseract
+ - python-docx
+ - PyMuPDF
+ - tqdm
+ - tensorflow
+ - tensorflow-hub
+ - tensorflow-text
+ - scikit-learn
