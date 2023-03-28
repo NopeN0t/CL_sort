@@ -6,10 +6,10 @@ from sklearn.metrics import silhouette_score
 from tempfile import TemporaryDirectory
 from multiprocessing import cpu_count
 from odf.opendocument import load
-import matplotlib.pyplot as plt
 from functools import partial
 import tensorflow_hub as hub
 from pathlib import Path
+import tensorflow as tf
 import tensorflow_text
 from tqdm import tqdm
 from PIL import Image
@@ -49,7 +49,6 @@ image_size = cfg["image_size"]      #i or image-size
 stage = cfg["stage"]                #s or stage
 print("loading encoder")
 if cfg["encoder"] == "" :
-  import tensorflow as tf
   embed = tf.saved_model.load("./Model/")
 else :
   embed = hub.load(cfg["encoder"])
