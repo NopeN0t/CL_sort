@@ -15,14 +15,14 @@ Commands
 ````
 
 Arguments <br>
--l or --lang 				add other language for extraction <br>
--m or --max_page 		total amount of pages can be extract from pdf <br>
--t or --text_max 		total amount of text can be extract from each file <br>
--d or --doc_img 		Allow program to extract data from image inside doc files <br>
--p or --show_path 	print file path into console while running <br>
--i or --image_size 	size of image scaled to when reading them <br>
--e or --encoder 		encoder used to encode text <br>
--s or --stage       set stage of opration of the program <br>
+-l add other language for extraction <br>
+-m total amount of pages can be extract from pdf <br>
+-t total amount of text can be extract from each file <br>
+-d Allow program to extract data from image inside doc files <br>
+-p print file path into console while running <br>
+-i size of image scaled to when reading them <br>
+-e encoder used to encode text <br>
+-s set stage of opration of the program <br>
 
 ## Dependencies
  - odfpy
