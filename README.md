@@ -1,19 +1,4 @@
-# Dependency
-Imports used in the program <br>
-> sklearn <br>
-> tensorflow_hub <br>
-> tensorflow_text <br>
-> pandas <br>
-> numpy <br>
-> matplotlib <br>
-> tqdm <br>
-> PIL <br>
-> odfpy <br>
-> pytesseract <br>
-> python-docx <br>
-> funtools (partial) <br>
-> PyMuPDF (imported as fitz) <br>
-## Usage
+# Usage
 Note : Add this program to global path variable Before using <br>
 There is two opration mode for this program <br>
 
