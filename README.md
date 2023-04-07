@@ -1,5 +1,6 @@
 # Usage
 Note : Add this program to global path variable Before using <br>
+**** Dont forgot to put an encoder inside Model folder encoder used when making can be found <a href="https://tfhub.dev/google/universal-sentence-encoder-multilingual/3"> here </a> **** <br>
 There is two opration mode for this program <br>
 
 Sample based <br>
